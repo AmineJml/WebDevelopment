@@ -3,6 +3,24 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: brown;
 }
-.center {
+body {
+  background-color: gray;
+}
+.header {
   text-align: center;
+  background-color: white;
+  padding: 5%;
+}
+
+form {
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: lightgray;
+}
+
+button {
+  margin-left: 40%;
+  padding: 1.5%;
+  color: white;
+  background-color: gray;
 }

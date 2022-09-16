@@ -5,146 +5,177 @@
 </head>
 
 <body>
-    <h1 class="font-wiggly center">Follow Up Survey </h1>
+    <form class="form_color">
+        <h1 class="header">Follow Up Survey </h1>
 
-    <table>
-        <tr>
-            <td>
-                <h3>When did you use our service</h3>
-            </td>
-            <td>
-                <h3> Name of product or service</h3>
-            </td>
-        </tr>
+        <table width="565px">
 
-        <tr>
-            <td>
-                <label for="birthday"></label>
-            </td>
-            <td>
-
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="date" name="birthday">
-
-            </td>
-            <td>
-                <input type="text"><br>
-            </td>
-        </tr>
-    </table>
+            <tr>
+                <td>
+                    <h3>When did you use our service</h3>
+                </td>
+                <td>
+                    <h3> Name of product or service</h3>
+                </td>
+            </tr>
 
 
+            <tr>
+                <td>
+                    <label for="birthday"></label>
+                </td>
+                <td>
 
-    <h3 class="title-bold"> Overall, how satisified are you with the product or service </h3>
-    <table>
-        <tr>
-            <td>
-                Very satisfied
-            </td>
-            <td></td>
-            <td>
-                Satisfied
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Neutral
-            </td>
-            <td></td>
-            <td>
-                Unsatisfied
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Very unsatsified
-            </td>
-            <td></td>
-            <td>
-                N/A
-            </td>
-        </tr>
-    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" name="birthday">
 
-    <h3 class="title-bold"> Did our product or service meet your expectations? </h3>
+                </td>
+                <td>
+                    <input type="text"><br>
+                </td>
+            </tr>
+        </table>
 
-    <table>
-        <tr>
-            <td>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">Yes</label><br>
-            </td>
-            <td>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">No</label><br>
-            </td>
-        </tr>
-    </table>
 
-    <h3 class="title-bold"> Would you recommend this product or service to a friend? </h3>
 
-    <table>
-        <tr>
-            <td>
-                <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">Yes</label><br>
-            </td>
-            <td>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">No</label><br>
-            </td>
-        </tr>
-    </table>
-    <h3 class="title-bold">What aspect of the product or service were you most satisfied by?</h3>
-    <table>
-        <tr>
-            <td>
-                Quality
-            </td>
-            <td>
-                Price
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Customer Service
-            </td>
-            <td>
-                Installation or first use experience
-            </td>
-        </tr>
+        <h3 class="title-bold"> Overall, how satisified are you with the product or service </h3>
+        <table width="500px">
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="satisfied" value="HTML">
 
-    </table>
+                    Very satisfied
+                </td>
+                <td></td>
+                <td>
+                    <input type="radio" id="html" name="satisfied" value="HTML">
 
-    <h3 class="title-bold">What aspect or service were you least satisfied by?</h3>
-    <table>
-        <tr>
-            <td>
-                Quality
-            </td>
-            <td>
-                Price
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Customer Service
-            </td>
-            <td>
-                Installation or first use experience
-            </td>
-        </tr>
+                    Satisfied
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="satisfied" value="HTML">
 
-    </table>
+                    Neutral
+                </td>
+                <td></td>
+                <td>
+                    <input type="radio" id="html" name="satisfied" value="HTML">
 
-    <h3 class="title-bold">Additional comments: </h3>
-    <textarea name="" cols="30" rows="5" placeholder="type here:"></textarea>
-    </br>
-    <button class="center button" type="button">Submit</button>
+                    Unsatisfied
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="satisfied" value="HTML">
 
+                    Very unsatsified
+                </td>
+                <td></td>
+                <td>
+                    <input type="radio" id="html" name="satisfied" value="HTML">
+
+                    N/A
+                </td>
+            </tr>
+        </table>
+
+        <h3 class="title-bold"> Did our product or service meet your expectations? </h3>
+
+        <table width="545px">
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="expct" value="HTML">
+                    <label for="html">Yes</label><br>
+                </td>
+                <td>
+                    <input type="radio" id="css" name="expct" value="CSS">
+                    <label for="css">No</label><br>
+                </td>
+            </tr>
+        </table>
+
+        <h3> Would you recommend this product or service to a friend? </h3>
+
+        <table width="545px">
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Yes</label><br>
+                </td>
+                <td>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">No</label><br>
+                </td>
+            </tr>
+        </table>
+        <h3>What aspect of the product or service were you most satisfied by?</h3>
+        <table width="800px">
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="aspect" value="HTML">
+
+                    Quality
+                </td>
+                <td>
+                    <input type="radio" id="html" name="aspect" value="HTML">
+
+                    Price
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="aspect" value="HTML">
+
+                    Customer Service
+                </td>
+                <td>
+                    <input type="radio" id="html" name="aspect" value="HTML">
+
+                    Installation or first use experience
+                </td>
+            </tr>
+
+        </table>
+
+        <h3>What aspect or service were you least satisfied by?</h3>
+        <table width="800px">
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="quality" value="HTML">
+
+                    Quality
+                </td>
+                <td>
+                    <input type="radio" id="html" name="quality" value="HTML">
+
+                    Price
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="html" name="quality" value="HTML">
+
+                    Customer Service
+                </td>
+                <td>
+                    <input type="radio" id="html" name="quality" value="HTML">
+
+                    Installation or first use experience
+                </td>
+            </tr>
+
+        </table>
+
+        <h3>Additional comments: </h3>
+        <textarea name="" cols="75" rows="5" placeholder="type here:"></textarea>
+        </br>
+        <button class="center_button" type="button">Submit</button>
+    </form>
 </body>
 
 </html>
